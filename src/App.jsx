@@ -5,7 +5,7 @@ import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader'
 export default function App() {
   
   const gltf = useLoader(GLTFLoader, './models/CatSketchfabExportfbx.glb')
-  console.log(gltf.scene) 
+
 
   return (
     <Canvas camera={{ position: [30, 50, 10] }} >
